@@ -1,6 +1,6 @@
 export const Footer = () => {
     return (
-        <div className="lg:flex justify-between py-16">
+        <div className="lg:flex justify-between py-16 px-8">
             <ul className="flex space-x-8">
                 <li>Instagram</li>
                 <li>Facebook</li>

@@ -8,7 +8,7 @@ type reminderType = {
 
 export const Reminder = ({title, items, color}:reminderType) => {
     return (
-        <div className={`${color} flex flex-col text-black min-w-[300px] min-h-[300px] space-y-8 p-5`}>
+        <div className={`${color} flex flex-col text-black min-h-[300px] space-y-8 p-5`}>
             <h1 className=" font-bold text-2xl font-mono tracking-tighter">{title}</h1>
             <ul className="font-semibold font-mono">
               {items.map((item,index)=>(<li key={index}>{item}</li>))}
